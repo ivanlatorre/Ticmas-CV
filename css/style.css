@@ -73,6 +73,16 @@ body{
     font-size: 0.8em;
     font-weight: 300;
 }
+.info-contacto
+{
+    padding-top:40px ;
+}
+.titulo-contacto
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
 
 
 
