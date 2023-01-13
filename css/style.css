@@ -83,6 +83,18 @@ body{
     text-transform: uppercase;
     font-weight: 600;
 }
+.info-contacto ul
+{
+    position: relative;
+}
+.info-contacto ul li 
+{
+    position: relative;
+    list-style: none;
+    margin:10px 0;
+    cursor: pointer;
+
+}
 
 
 
