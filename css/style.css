@@ -69,6 +69,10 @@ body{
     font-weight: 600;
     line-height: 1.4em;
 }
+.perfil h1 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
 
 
 
