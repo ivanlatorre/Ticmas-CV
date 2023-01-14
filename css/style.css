@@ -114,9 +114,12 @@ body{
 .educacion
 {
     padding-top: 20px;
-    padding-bottom: 20px;
+    
     border-bottom: 1px solid rgba(255,255,255,0.2);
 
+}
+.educacion h3{
+    padding-bottom: 20px;
 }
 .educacion li
 {
@@ -137,6 +140,10 @@ body{
     
     padding-top: 20px;
     
+}
+.lenguaje h3
+{
+    padding-bottom: 20px;
 }
 .lenguaje .texto
 {
