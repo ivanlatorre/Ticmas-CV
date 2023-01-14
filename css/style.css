@@ -142,6 +142,15 @@ body{
 {
     color: #fff;
 }
+.lenguaje .parcent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
 
 
 
