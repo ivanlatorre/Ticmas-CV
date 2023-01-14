@@ -95,6 +95,16 @@ body{
     cursor: pointer;
 
 }
-
+.info-contacto ul li .icono
+{
+    display: inline-block;
+    width: 300px;
+    font-size: 18px;
+    color: aqua;
+}
+.info-contacto ul li .texto{
+    color: #fff;
+    font-weight: 300;
+}
 
 
