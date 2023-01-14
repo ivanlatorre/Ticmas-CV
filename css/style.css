@@ -105,7 +105,7 @@ body{
     display:inline;
     width: 300px;
     font-size: 18px;
-    color: aqua;
+    color: #03a9f4;
 }
 .info-contacto ul li .texto{
     color: #fff;
@@ -127,7 +127,7 @@ body{
     color: #03a9f4;
     font-weight: 500;
 }
-.educacion h4:nth-child(2)
+.educacion h4
 {
     color: #fff;
     font-weight: 500;
