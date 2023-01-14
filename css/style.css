@@ -82,7 +82,7 @@ body{
 .info-contacto h3{
     padding-bottom: 10px;
 }
-.titulo-contacto
+.titulo
 {
     color: #fff;
     text-transform: uppercase;
@@ -111,5 +111,28 @@ body{
     color: #fff;
     font-weight: 300;
 }
+.educacion
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+
+}
+.educacion li
+{
+    margin-bottom: 15px;
+}
+.educacion h5
+{
+    color: #03a9f4;
+    font-weight: 500;
+}
+.educacion h4:nth-child(2)
+{
+    color: #fff;
+    font-weight: 500;
+}
+
+
 
 
