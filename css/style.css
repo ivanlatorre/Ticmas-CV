@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
 }
+html
+{
+    height: 100%
+}
 body{
     background: lightblue;
     display: flex;
@@ -218,8 +222,15 @@ p
 }
 section
 {
-    width: 90%;
+    width: 100%;
     margin: 15px auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
 }
 figure
 {
@@ -227,26 +238,27 @@ figure
     padding-left: 20px;
     padding-right: 20px;
     align-items: center;
+    text-align: center;
 }
 img
 {
     
     width: 50px;
     height: 50px;
+    flex-basis: 250px;
 }
-figure img
+figure img figcaption
 {
     padding: 4px;
-    background:#666;
     border-radius: 20px;
     -webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s; ;
     box-shadow: #999 5px 5px 10px;
 
 }
-figcaption
+figure img figcaption
 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
+    font-size: 1em;
     text-align: center;
     margin-top: 5px;
 }
