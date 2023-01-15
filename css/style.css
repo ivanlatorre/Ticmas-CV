@@ -9,6 +9,8 @@ html
     height: 100%
 }
 body{
+
+    
     background: lightblue;
     display: flex;
     justify-content: center;
@@ -19,8 +21,8 @@ body{
 {
     position: relative;
     width: 100%;
-    max-width: 1000px;
-    min-height: 1000px;
+    max-width: 1200px;
+    min-height: 1200px;
     background: #fff;
     margin: 50px;
     display: grid;
@@ -283,5 +285,13 @@ figure  img:hover{
     {
         flex-direction: column;
     }
-    
+    .about .box .empresa
+    {
+        margin-bottom: 5px;
+    }
+    .habilidades .box
+    {
+        grid-template-columns: repeat(1.1fr);
+    }
+
 }
