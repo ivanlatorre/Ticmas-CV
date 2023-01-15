@@ -166,6 +166,47 @@ body{
     height: 100%;
     background: #03a9f4;
 }
-
-
-
+/**
+lado derecho
+*/
+.contenedor .lateral-derecha
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.about
+{
+    margin-bottom: 50px;
+}
+.about:last-child
+{
+    margin-bottom: 0;
+}
+.titulo2
+{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p
+{
+    color: #333;
+}
+.about .box
+{
+    display: flex;
+    flex-direction:row;
+    margin: 20px 0;
+}
+.about .box .empresa
+{
+    min-width: 150px;
+}
+.about .box .empresa h5
+{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
