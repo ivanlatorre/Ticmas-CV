@@ -268,3 +268,20 @@ figure  img:hover{
 
 
 }
+
+@media(max-width:1000px)
+{
+    .contenedor
+    {
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (max-width:600px)
+{
+    .about .box
+    {
+        flex-direction: column;
+    }
+    
+}
