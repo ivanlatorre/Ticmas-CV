@@ -30,13 +30,11 @@ body{
     box-shadow: 0 35px 55px rgba(0, 0, 0, 1);
 }
 
-
-
 .contenedor .lateral-izquierda
 {
     
     position: relative;
-    background: #003147;
+    background: #0d6efd;
     padding: 40px;
 }
 .perfil
