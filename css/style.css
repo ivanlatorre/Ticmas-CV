@@ -17,7 +17,6 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    /*cursor: url(/img/puntero.png),auto;*/
 }
 .contenedor
 {
@@ -86,7 +85,7 @@ body{
 }
 .botones audio #primary, #secondary, #success, #danger, #warning, #info, #light, #dark
 {
-    cursor: url(/img/mano.png),auto;
+    /*cursor: url(/img/mano.png),auto;*/
 }
 audio
 {
