@@ -78,9 +78,20 @@ body{
     font-size: 0.8em;
     font-weight: 300;
 }
-.botones #primary, #secondary, #success, #danger, #warning, #info, #light, #dark
+.perfil .botones audio
+{
+    align-items: center;
+    justify-content: center;
+}
+.botones audio #primary, #secondary, #success, #danger, #warning, #info, #light, #dark
 {
     cursor: url(/img/mano.png),auto;
+}
+audio
+{
+    width: 250px;
+    height: 20px;
+    
 }
 .info-contacto
 {
