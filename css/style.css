@@ -17,7 +17,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    cursor: url('/img/puntero.png'),auto;
+    cursor: url('img/puntero.png'),auto;
 }
 .contenedor
 {
