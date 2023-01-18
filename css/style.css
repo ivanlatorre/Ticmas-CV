@@ -16,6 +16,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    cursor: url(/img/puntero.png),auto;
 }
 .contenedor
 {
@@ -77,6 +78,10 @@ body{
     font-size: 0.8em;
     font-weight: 300;
 }
+.botones #primary, #secondary, #success, #danger, #warning, #info, #light, #dark
+{
+    cursor: url(/img/mano.png),auto;
+}
 .info-contacto
 {
     padding-top:20px ;
@@ -101,7 +106,7 @@ body{
     position: relative;
     list-style: none;
     margin:10px 0;
-    cursor: pointer;
+    cursor: url(/img/mano.png),auto;
 
 }
 .info-contacto ul li .icono
@@ -114,6 +119,7 @@ body{
 .info-contacto ul li .texto{
     color: #fff;
     font-weight: 300;
+    
 }
 .educacion
 {
