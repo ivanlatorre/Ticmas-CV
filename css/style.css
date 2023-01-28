@@ -318,6 +318,14 @@ figure  img:hover{
 @media (max-width:340px)
 {
     .botones{
-       
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media (max-width:317px)
+{
+    .botones{
+        padding-left: 40px;
+        padding-right: 40px;
     }
 }
