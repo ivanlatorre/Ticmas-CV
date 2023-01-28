@@ -38,6 +38,7 @@ body{
     background: #0d6efd;
     padding: 40px;
 }
+
 .perfil
 {
     position: relative;
@@ -285,12 +286,17 @@ figure  img:hover{
 
 }
 
-@media(max-width:992px)
+@media(max-width:1058px)
 {
     .contenedor
     {
         margin: 10px;
         grid-template-columns: repeat(1,1fr);
+    }
+    .lateral-izquierda
+    {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 @media (max-width:600px)
@@ -308,4 +314,10 @@ figure  img:hover{
         grid-template-columns: repeat(1.1fr);
     }
 
+}
+@media (max-width:340px)
+{
+    .botones{
+       
+    }
 }
