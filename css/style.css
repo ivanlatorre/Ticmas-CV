@@ -103,17 +103,21 @@ body{
     text-transform: uppercase;
     font-weight: 600;
 }
+ul
+{
+    list-style:none ;
+}
 .info-contacto ul
 {
     position: relative;
+    
 }
 .info-contacto ul li 
 {
     position: relative;
-    list-style: none;
     margin:10px 0;
     /*cursor: url(/img/mano.png),auto;*/ /*git page no reconce la ruta*/
-
+    
 }
 .info-contacto ul li .icono
 {
@@ -281,7 +285,7 @@ figure  img:hover{
 
 }
 
-@media(max-width:1000px)
+@media(max-width:992px)
 {
     .contenedor
     {
